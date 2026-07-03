@@ -2,7 +2,7 @@
 const nextConfig = {
   images: { unoptimized: true },
   env: {
-    NEXT_PUBLIC_API_URL: 'https://itcrmbackend.vercel.app'
+    NEXT_PUBLIC_API_URL: 'https://itcrmbackend.onrender.com'
   }
 };
 

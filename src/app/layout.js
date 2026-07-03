@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   const [token, setToken] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  const API = process.env.NEXT_PUBLIC_API_URL || 'https://itcrmbackend.vercel.app';
+  const API = process.env.NEXT_PUBLIC_API_URL || 'https://itcrmbackend.onrender.com';
 
   useEffect(() => {
     const savedToken = localStorage.getItem('token');
